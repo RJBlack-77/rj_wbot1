@@ -44,9 +44,9 @@ const defaultMenu = {
 │ %github
 ╰────
 %readmore`.trimStart(),
-  header: '╭─「 %category 」',
-  body: '│ • %cmd %islimit %isPremium',
-  footer: '╰────\n',
+  header: ' ',
+  body: ' ,
+  footer: ' ',
   after: `
 *%npmname@^%version*
 ${'```%npmdesc```'}
